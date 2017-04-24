@@ -20,12 +20,14 @@ nav img {
 /*all ul/li move to right site of nav*/
 nav > div > ul {
   float: right;
+  padding: 0px
 }
 /*put all inline li in nav */
 nav > div > ul > li {
   display: inline;
-  margin: 30px;
+  margin: 0px;
   padding: 5px;
+  font-size: 10px;
 }
 /*makes links in list white with no decoration*/
 li a {
@@ -78,4 +80,58 @@ footer {
   bottom:0;
   width:100%;
   height:60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+@media (max-width:500px) {
+  nav > div > ul >li{
+    padding: 0px;
+  }
+  div .box-img {
+    height: 100px;
+    width: 100px;
+  }
+  footer {
+    position: absolute;
+    bottom: -8px;
+    width: 113%;
+    display: none;
+  }
+}
+@media (max-width:452px) {
+  .search {
+    left: 71%;
+  }
+
+}@media (max-width:424px) {
+  .box-text {
+    font-size: 17px;
+  }
+}
+
+/*@media (query) {
+
+}*/
+
+@media (max-width:402px) {
+   img {
+    width: 150px;
+    height: 150px;
+    margin-top: 73px;
+
+  }
+
 }
